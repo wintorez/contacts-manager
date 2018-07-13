@@ -1,0 +1,270 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<List /> renders correctly 1`] = `
+<div
+  className="ui container"
+  style={
+    Object {
+      "marginTop": "1rem",
+    }
+  }
+>
+  <h1
+    className="ui header"
+    style={
+      Object {
+        "margin": "1.5rem 0",
+      }
+    }
+  >
+    Contacts Manager Demo
+  </h1>
+  <div
+    className="ui tabular menu"
+  >
+    <div
+      className="active item"
+      onClick={[Function]}
+    >
+      <a
+        href="/employees"
+        onClick={[Function]}
+      >
+        Employees
+      </a>
+    </div>
+    <div
+      className="item"
+      onClick={[Function]}
+    >
+      <a
+        href="/settings"
+        onClick={[Function]}
+      >
+        Settings
+      </a>
+    </div>
+  </div>
+  <div
+    className="ui container"
+  >
+    <table
+      className="ui celled selectable table"
+    >
+      <thead
+        className=""
+      >
+        <tr
+          className=""
+        >
+          <th
+            className=""
+          >
+            Employee Id
+          </th>
+          <th
+            className=""
+          >
+            First Name
+          </th>
+          <th
+            className=""
+          >
+            Last Name
+          </th>
+          <th
+            className=""
+          >
+            Email
+          </th>
+        </tr>
+      </thead>
+      <tbody
+        className=""
+      >
+        <tr
+          className=""
+          onClick={[Function]}
+          style={
+            Object {
+              "cursor": "pointer",
+            }
+          }
+        >
+          <td
+            className=""
+          >
+            1
+          </td>
+          <td
+            className=""
+          >
+            Joe
+          </td>
+          <td
+            className=""
+          >
+            Bloggs
+          </td>
+          <td
+            className=""
+          >
+            jblogs@email.com
+          </td>
+        </tr>
+        <tr
+          className=""
+          onClick={[Function]}
+          style={
+            Object {
+              "cursor": "pointer",
+            }
+          }
+        >
+          <td
+            className=""
+          >
+            2
+          </td>
+          <td
+            className=""
+          >
+            John
+          </td>
+          <td
+            className=""
+          >
+            Smith
+          </td>
+          <td
+            className=""
+          >
+            jsmith@gmail.com
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <button
+      className="ui button"
+      disabled={undefined}
+      onClick={[Function]}
+      role="button"
+      tabIndex={undefined}
+    >
+      Add New Employee
+    </button>
+  </div>
+</div>
+`;
+
+exports[`<List /> renders correctly when error 1`] = `
+<div
+  className="ui container"
+  style={
+    Object {
+      "marginTop": "1rem",
+    }
+  }
+>
+  <h1
+    className="ui header"
+    style={
+      Object {
+        "margin": "1.5rem 0",
+      }
+    }
+  >
+    Contacts Manager Demo
+  </h1>
+  <div
+    className="ui tabular menu"
+  >
+    <div
+      className="active item"
+      onClick={[Function]}
+    >
+      <a
+        href="/employees"
+        onClick={[Function]}
+      >
+        Employees
+      </a>
+    </div>
+    <div
+      className="item"
+      onClick={[Function]}
+    >
+      <a
+        href="/settings"
+        onClick={[Function]}
+      >
+        Settings
+      </a>
+    </div>
+  </div>
+  <div
+    className="ui container"
+  >
+    <div
+      className="ui negative message"
+    >
+      Oops! Something went wrong! Please try again later.
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<List /> renders correctly when loading 1`] = `
+<div
+  className="ui container"
+  style={
+    Object {
+      "marginTop": "1rem",
+    }
+  }
+>
+  <h1
+    className="ui header"
+    style={
+      Object {
+        "margin": "1.5rem 0",
+      }
+    }
+  >
+    Contacts Manager Demo
+  </h1>
+  <div
+    className="ui tabular menu"
+  >
+    <div
+      className="active item"
+      onClick={[Function]}
+    >
+      <a
+        href="/employees"
+        onClick={[Function]}
+      >
+        Employees
+      </a>
+    </div>
+    <div
+      className="item"
+      onClick={[Function]}
+    >
+      <a
+        href="/settings"
+        onClick={[Function]}
+      >
+        Settings
+      </a>
+    </div>
+  </div>
+  <div
+    className="ui container"
+  >
+    <div
+      className="ui active centered inline loader"
+    />
+  </div>
+</div>
+`;

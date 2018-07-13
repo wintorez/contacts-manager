@@ -1,0 +1,271 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Detail /> renders correctly 1`] = `
+<div
+  className="ui container"
+  style={
+    Object {
+      "marginTop": "1rem",
+    }
+  }
+>
+  <h1
+    className="ui header"
+    style={
+      Object {
+        "margin": "1.5rem 0",
+      }
+    }
+  >
+    Contacts Manager Demo
+  </h1>
+  <div
+    className="ui tabular menu"
+  >
+    <div
+      className="active item"
+      onClick={[Function]}
+    >
+      <a
+        href="/employees"
+        onClick={[Function]}
+      >
+        Employees
+      </a>
+    </div>
+    <div
+      className="item"
+      onClick={[Function]}
+    >
+      <a
+        href="/settings"
+        onClick={[Function]}
+      >
+        Settings
+      </a>
+    </div>
+  </div>
+  <div
+    className="ui container"
+  >
+    <button
+      className="ui right floated button"
+      disabled={undefined}
+      onClick={[Function]}
+      role="button"
+      tabIndex={undefined}
+    >
+      Back
+    </button>
+    <h3
+      className="ui left floated header"
+    >
+      Employee Detail
+    </h3>
+    <div
+      className="ui clearing hidden divider"
+    />
+    <div
+      className="ui very relaxed list"
+      role="list"
+    >
+      <div
+        className="item"
+        data-value={undefined}
+        onClick={[Function]}
+        role="listitem"
+      >
+        <div
+          className="header"
+        >
+          Name
+        </div>
+        <div
+          className="description"
+        >
+          Joe Bloggs
+        </div>
+      </div>
+      <div
+        className="item"
+        data-value={undefined}
+        onClick={[Function]}
+        role="listitem"
+      >
+        <div
+          className="header"
+        >
+          Email
+        </div>
+        <div
+          className="description"
+        >
+          <a
+            href="mailto:jblogs@email.com"
+          >
+            jblogs@email.com
+          </a>
+        </div>
+      </div>
+      <div
+        className="item"
+        data-value={undefined}
+        onClick={[Function]}
+        role="listitem"
+      >
+        <div
+          className="header"
+        >
+          Telephone
+        </div>
+        <div
+          className="description"
+        >
+          <a
+            href="tel:+1-555-444-3333"
+          >
+            +1-555-444-3333
+          </a>
+        </div>
+      </div>
+      <div
+        className="item"
+        data-value={undefined}
+        onClick={[Function]}
+        role="listitem"
+      >
+        <div
+          className="header"
+        >
+          Department
+        </div>
+        <div
+          className="description"
+        >
+          Engineering
+        </div>
+      </div>
+      <div
+        className="item"
+        data-value={undefined}
+        onClick={[Function]}
+        role="listitem"
+      >
+        <button
+          className="ui button"
+          disabled={undefined}
+          onClick={[Function]}
+          role="button"
+          tabIndex={undefined}
+        >
+          Edit
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Detail /> renders correctly when loading 1`] = `
+<div
+  className="ui container"
+  style={
+    Object {
+      "marginTop": "1rem",
+    }
+  }
+>
+  <h1
+    className="ui header"
+    style={
+      Object {
+        "margin": "1.5rem 0",
+      }
+    }
+  >
+    Contacts Manager Demo
+  </h1>
+  <div
+    className="ui tabular menu"
+  >
+    <div
+      className="active item"
+      onClick={[Function]}
+    >
+      <a
+        href="/employees"
+        onClick={[Function]}
+      >
+        Employees
+      </a>
+    </div>
+    <div
+      className="item"
+      onClick={[Function]}
+    >
+      <a
+        href="/settings"
+        onClick={[Function]}
+      >
+        Settings
+      </a>
+    </div>
+  </div>
+  <div
+    className="ui active centered inline loader"
+  />
+</div>
+`;
+
+exports[`<Detail /> renders correctly with error 1`] = `
+<div
+  className="ui container"
+  style={
+    Object {
+      "marginTop": "1rem",
+    }
+  }
+>
+  <h1
+    className="ui header"
+    style={
+      Object {
+        "margin": "1.5rem 0",
+      }
+    }
+  >
+    Contacts Manager Demo
+  </h1>
+  <div
+    className="ui tabular menu"
+  >
+    <div
+      className="active item"
+      onClick={[Function]}
+    >
+      <a
+        href="/employees"
+        onClick={[Function]}
+      >
+        Employees
+      </a>
+    </div>
+    <div
+      className="item"
+      onClick={[Function]}
+    >
+      <a
+        href="/settings"
+        onClick={[Function]}
+      >
+        Settings
+      </a>
+    </div>
+  </div>
+  <div
+    className="ui negative message"
+  >
+    Oops! Something went wrong! Please try again later.
+  </div>
+</div>
+`;

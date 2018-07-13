@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NotFound /> renders correctly 1`] = `
+<div
+  className="ui container"
+  style={
+    Object {
+      "marginTop": "1rem",
+    }
+  }
+>
+  <h1
+    className="ui header"
+    style={
+      Object {
+        "margin": "1.5rem 0",
+      }
+    }
+  >
+    Contacts Manager Demo
+  </h1>
+  <div
+    className="ui container"
+  >
+    <div
+      className="ui segment"
+    >
+      <h3
+        className="ui header"
+      >
+        Page Not Found
+      </h3>
+    </div>
+  </div>
+</div>
+`;

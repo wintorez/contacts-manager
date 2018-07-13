@@ -1,0 +1,236 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Page /> renders correctly 1`] = `
+<div
+  className="ui container"
+  style={
+    Object {
+      "marginTop": "1rem",
+    }
+  }
+>
+  <h1
+    className="ui header"
+    style={
+      Object {
+        "margin": "1.5rem 0",
+      }
+    }
+  >
+    Contacts Manager Demo
+  </h1>
+  <div
+    className="ui tabular menu"
+  >
+    <div
+      className="active item"
+      onClick={[Function]}
+    >
+      <a
+        href="/employees"
+        onClick={[Function]}
+      >
+        Employees
+      </a>
+    </div>
+    <div
+      className="item"
+      onClick={[Function]}
+    >
+      <a
+        href="/settings"
+        onClick={[Function]}
+      >
+        Settings
+      </a>
+    </div>
+  </div>
+  <div
+    className="ui container"
+  >
+    Page Content
+  </div>
+</div>
+`;
+
+exports[`<Page /> renders correctly when hiding menu 1`] = `
+<div
+  className="ui container"
+  style={
+    Object {
+      "marginTop": "1rem",
+    }
+  }
+>
+  <h1
+    className="ui header"
+    style={
+      Object {
+        "margin": "1.5rem 0",
+      }
+    }
+  >
+    Contacts Manager Demo
+  </h1>
+  <div
+    className="ui container"
+  >
+    Page Content
+  </div>
+</div>
+`;
+
+exports[`<Page /> renders correctly when loading 1`] = `
+<div
+  className="ui container"
+  style={
+    Object {
+      "marginTop": "1rem",
+    }
+  }
+>
+  <h1
+    className="ui header"
+    style={
+      Object {
+        "margin": "1.5rem 0",
+      }
+    }
+  >
+    Contacts Manager Demo
+  </h1>
+  <div
+    className="ui tabular menu"
+  >
+    <div
+      className="active item"
+      onClick={[Function]}
+    >
+      <a
+        href="/employees"
+        onClick={[Function]}
+      >
+        Employees
+      </a>
+    </div>
+    <div
+      className="item"
+      onClick={[Function]}
+    >
+      <a
+        href="/settings"
+        onClick={[Function]}
+      >
+        Settings
+      </a>
+    </div>
+  </div>
+  <div
+    className="ui active centered inline loader"
+  />
+</div>
+`;
+
+exports[`<Page /> renders correctly with error 1`] = `
+<div
+  className="ui container"
+  style={
+    Object {
+      "marginTop": "1rem",
+    }
+  }
+>
+  <h1
+    className="ui header"
+    style={
+      Object {
+        "margin": "1.5rem 0",
+      }
+    }
+  >
+    Contacts Manager Demo
+  </h1>
+  <div
+    className="ui tabular menu"
+  >
+    <div
+      className="active item"
+      onClick={[Function]}
+    >
+      <a
+        href="/employees"
+        onClick={[Function]}
+      >
+        Employees
+      </a>
+    </div>
+    <div
+      className="item"
+      onClick={[Function]}
+    >
+      <a
+        href="/settings"
+        onClick={[Function]}
+      >
+        Settings
+      </a>
+    </div>
+  </div>
+  <div
+    className="ui negative message"
+  >
+    Oops! Something went wrong! Please try again later.
+  </div>
+</div>
+`;
+
+exports[`<Page /> renders correctly without content 1`] = `
+<div
+  className="ui container"
+  style={
+    Object {
+      "marginTop": "1rem",
+    }
+  }
+>
+  <h1
+    className="ui header"
+    style={
+      Object {
+        "margin": "1.5rem 0",
+      }
+    }
+  >
+    Contacts Manager Demo
+  </h1>
+  <div
+    className="ui tabular menu"
+  >
+    <div
+      className="active item"
+      onClick={[Function]}
+    >
+      <a
+        href="/employees"
+        onClick={[Function]}
+      >
+        Employees
+      </a>
+    </div>
+    <div
+      className="item"
+      onClick={[Function]}
+    >
+      <a
+        href="/settings"
+        onClick={[Function]}
+      >
+        Settings
+      </a>
+    </div>
+  </div>
+  <div
+    className="ui container"
+  />
+</div>
+`;

@@ -1,0 +1,580 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Edit /> renders correctly when loading 1`] = `
+<form
+  action={undefined}
+  className="ui form"
+  disabled={true}
+  onSubmit={[Function]}
+>
+  <div
+    className="ui stackable two column grid"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="column"
+      >
+        <div
+          className="required field"
+        >
+          <label
+            htmlFor={undefined}
+          >
+            First Name
+          </label>
+          <div
+            className="ui input"
+            content={undefined}
+          >
+            <input
+              defaultValue="Joe"
+              disabled={undefined}
+              name="firstName"
+              onChange={[Function]}
+              placeholder="First Name"
+              required={true}
+              tabIndex={undefined}
+              type="text"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="column"
+      >
+        <div
+          className="required field"
+        >
+          <label
+            htmlFor={undefined}
+          >
+            Last Name
+          </label>
+          <div
+            className="ui input"
+            content={undefined}
+          >
+            <input
+              defaultValue="Bloggs"
+              disabled={undefined}
+              name="lastName"
+              onChange={[Function]}
+              placeholder="Last Name"
+              required={true}
+              tabIndex={undefined}
+              type="text"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="column"
+      >
+        <div
+          className="required field"
+        >
+          <label
+            htmlFor={undefined}
+          >
+            Email
+          </label>
+          <div
+            className="ui input"
+            content={undefined}
+          >
+            <input
+              defaultValue="jblogs@email.com"
+              disabled={undefined}
+              name="email"
+              onChange={[Function]}
+              placeholder="Email"
+              required={true}
+              tabIndex={undefined}
+              type="email"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="column"
+      >
+        <div
+          className="field"
+        >
+          <label
+            htmlFor={undefined}
+          >
+            Telephone
+          </label>
+          <div
+            className="ui input"
+            content={undefined}
+          >
+            <input
+              defaultValue="+1-555-444-3333"
+              disabled={undefined}
+              name="telephone"
+              onChange={[Function]}
+              placeholder="Telephone"
+              required={undefined}
+              tabIndex={undefined}
+              type="tel"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="column"
+      >
+        <div
+          className="field"
+        >
+          <label
+            htmlFor={undefined}
+          >
+            Department
+          </label>
+          <div
+            className="ui input"
+            content={undefined}
+          >
+            <input
+              defaultValue="Engineering"
+              disabled={undefined}
+              name="department"
+              onChange={[Function]}
+              placeholder="Department"
+              required={undefined}
+              tabIndex={undefined}
+              type="text"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="column"
+      >
+        <button
+          className="ui loading button"
+          disabled={undefined}
+          onClick={[Function]}
+          role="button"
+          tabIndex={undefined}
+          type="submit"
+        >
+          Save
+        </button>
+         
+        or
+         
+        <a
+          href="/employees/1"
+          onClick={[Function]}
+        >
+          Cancel
+        </a>
+      </div>
+    </div>
+  </div>
+</form>
+`;
+
+exports[`<Edit /> renders correctly with employee 1`] = `
+<form
+  action={undefined}
+  className="ui form"
+  disabled={undefined}
+  onSubmit={[Function]}
+>
+  <div
+    className="ui stackable two column grid"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="column"
+      >
+        <div
+          className="required field"
+        >
+          <label
+            htmlFor={undefined}
+          >
+            First Name
+          </label>
+          <div
+            className="ui input"
+            content={undefined}
+          >
+            <input
+              defaultValue="Joe"
+              disabled={undefined}
+              name="firstName"
+              onChange={[Function]}
+              placeholder="First Name"
+              required={true}
+              tabIndex={undefined}
+              type="text"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="column"
+      >
+        <div
+          className="required field"
+        >
+          <label
+            htmlFor={undefined}
+          >
+            Last Name
+          </label>
+          <div
+            className="ui input"
+            content={undefined}
+          >
+            <input
+              defaultValue="Bloggs"
+              disabled={undefined}
+              name="lastName"
+              onChange={[Function]}
+              placeholder="Last Name"
+              required={true}
+              tabIndex={undefined}
+              type="text"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="column"
+      >
+        <div
+          className="required field"
+        >
+          <label
+            htmlFor={undefined}
+          >
+            Email
+          </label>
+          <div
+            className="ui input"
+            content={undefined}
+          >
+            <input
+              defaultValue="jblogs@email.com"
+              disabled={undefined}
+              name="email"
+              onChange={[Function]}
+              placeholder="Email"
+              required={true}
+              tabIndex={undefined}
+              type="email"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="column"
+      >
+        <div
+          className="field"
+        >
+          <label
+            htmlFor={undefined}
+          >
+            Telephone
+          </label>
+          <div
+            className="ui input"
+            content={undefined}
+          >
+            <input
+              defaultValue="+1-555-444-3333"
+              disabled={undefined}
+              name="telephone"
+              onChange={[Function]}
+              placeholder="Telephone"
+              required={undefined}
+              tabIndex={undefined}
+              type="tel"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="column"
+      >
+        <div
+          className="field"
+        >
+          <label
+            htmlFor={undefined}
+          >
+            Department
+          </label>
+          <div
+            className="ui input"
+            content={undefined}
+          >
+            <input
+              defaultValue="Engineering"
+              disabled={undefined}
+              name="department"
+              onChange={[Function]}
+              placeholder="Department"
+              required={undefined}
+              tabIndex={undefined}
+              type="text"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="column"
+      >
+        <button
+          className="ui button"
+          disabled={undefined}
+          onClick={[Function]}
+          role="button"
+          tabIndex={undefined}
+          type="submit"
+        >
+          Save
+        </button>
+         
+        or
+         
+        <a
+          href="/employees/1"
+          onClick={[Function]}
+        >
+          Cancel
+        </a>
+      </div>
+    </div>
+  </div>
+</form>
+`;
+
+exports[`<Edit /> renders correctly without employee 1`] = `
+<form
+  action={undefined}
+  className="ui form"
+  disabled={undefined}
+  onSubmit={[Function]}
+>
+  <div
+    className="ui stackable two column grid"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="column"
+      >
+        <div
+          className="required field"
+        >
+          <label
+            htmlFor={undefined}
+          >
+            First Name
+          </label>
+          <div
+            className="ui input"
+            content={undefined}
+          >
+            <input
+              defaultValue=""
+              disabled={undefined}
+              name="firstName"
+              onChange={[Function]}
+              placeholder="First Name"
+              required={true}
+              tabIndex={undefined}
+              type="text"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="column"
+      >
+        <div
+          className="required field"
+        >
+          <label
+            htmlFor={undefined}
+          >
+            Last Name
+          </label>
+          <div
+            className="ui input"
+            content={undefined}
+          >
+            <input
+              defaultValue=""
+              disabled={undefined}
+              name="lastName"
+              onChange={[Function]}
+              placeholder="Last Name"
+              required={true}
+              tabIndex={undefined}
+              type="text"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="column"
+      >
+        <div
+          className="required field"
+        >
+          <label
+            htmlFor={undefined}
+          >
+            Email
+          </label>
+          <div
+            className="ui input"
+            content={undefined}
+          >
+            <input
+              defaultValue=""
+              disabled={undefined}
+              name="email"
+              onChange={[Function]}
+              placeholder="Email"
+              required={true}
+              tabIndex={undefined}
+              type="email"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="column"
+      >
+        <div
+          className="field"
+        >
+          <label
+            htmlFor={undefined}
+          >
+            Telephone
+          </label>
+          <div
+            className="ui input"
+            content={undefined}
+          >
+            <input
+              defaultValue=""
+              disabled={undefined}
+              name="telephone"
+              onChange={[Function]}
+              placeholder="Telephone"
+              required={undefined}
+              tabIndex={undefined}
+              type="tel"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="column"
+      >
+        <div
+          className="field"
+        >
+          <label
+            htmlFor={undefined}
+          >
+            Department
+          </label>
+          <div
+            className="ui input"
+            content={undefined}
+          >
+            <input
+              defaultValue=""
+              disabled={undefined}
+              name="department"
+              onChange={[Function]}
+              placeholder="Department"
+              required={undefined}
+              tabIndex={undefined}
+              type="text"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="column"
+      >
+        <button
+          className="ui button"
+          disabled={undefined}
+          onClick={[Function]}
+          role="button"
+          tabIndex={undefined}
+          type="submit"
+        >
+          Save
+        </button>
+         
+        or
+         
+        <a
+          href="/employees"
+          onClick={[Function]}
+        >
+          Cancel
+        </a>
+      </div>
+    </div>
+  </div>
+</form>
+`;

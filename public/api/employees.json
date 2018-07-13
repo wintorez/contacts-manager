@@ -1,0 +1,26 @@
+[
+  {
+    "employeeId": "1",
+    "firstName": "Joe",
+    "lastName": "Bloggs",
+    "email": "jblogs@email.com",
+    "telephone": "+1-555-444-3333",
+    "department": "Engineering"
+  },
+  {
+    "employeeId": "2",
+    "firstName": "John",
+    "lastName": "Smith",
+    "email": "jsmith@gmail.com",
+    "telephone": "+1-666-123-4567",
+    "department": "Administration"
+  },
+  {
+    "employeeId": "3",
+    "firstName": "Alice",
+    "lastName": "Brown",
+    "email": "abrown@gmail.com",
+    "telephone": "+1-777-897-6543",
+    "department": "Research & Development"
+  }
+]
